@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKE - Página Empresarial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-left">
+            <img src="img/nike.png" alt="Logotipo oficial de Nike" class="logo">
+        </div>
+        
+        <nav class="header-center">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+        </nav>
+
+        <div class="header-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>NIKE</h1>
+            <h2>Just Do It</h2>
+            <p>Nuestra misión: Llevar inspiración e innovación a cada atleta del mundo.</p>
+        </section>
+
+        <section class="proyectos">
+            <h2 class="section-title">Nuestros Destacados</h2>
+            <div class="grid-proyectos">
+                <article class="proyecto-card">
+                    <img src="img/AirMax2024.png" alt="Zapatillas Air Max ">
+                    <h3>Air Max 2024</h3>
+                    <p>Innovación en cada paso con amortiguación premium.</p>
+                    <a href="#" class="btn-link">Ver más</a>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="img/ropa1.png" alt="Ropa deportiva de entrenamiento">
+                    <h3>Nike Tech Fleece</h3>
+                    <p>Comodidad y estilo para el alto rendimiento.</p>
+                    <a href="#" class="btn-link">Ver más</a>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="img/soccerBall.png" alt="Balón de fútbol profesional">
+                    <h3>Accesorios Pro</h3>
+                    <p>Equipamiento diseñado para campeones.</p>
+                    <a href="#" class="btn-link">Ver más</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2 class="section-title">Contáctanos</h2>
+            <form action="#" class="formulario-contacto">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2026 Nike, Inc. Todos los derechos reservados. Adrián Razo M.</p>
+    </footer>
+
+</body>
+</html>
