@@ -59,6 +59,13 @@ body {
     text-align: center;
     padding: 20px;
     border: 1px solid #eee;
+    
+}
+
+.btn-link {
+    color: black;          /* cambia el azul a negro */
+    text-decoration: none; /* quita el subrayado */
+    font-weight: bold;
 }
 
 .proyecto-card img {
