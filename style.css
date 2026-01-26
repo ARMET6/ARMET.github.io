@@ -121,3 +121,89 @@ body {
     .header-center { display: none; } 
     .grid-proyectos { grid-template-columns: 1fr; } 
 }
+
+/* --- ESTILOS DE LA WISHLIST (Gestor de Tareas) --- */
+.wishlist-section {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.wishlist-container {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#input-tarea {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.lista-estilizada {
+    list-style: none; /* Quita los puntos feos */
+    padding: 0;
+}
+
+.tarea-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.tarea-texto {
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.tarea-completada {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.acciones button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-editar { background-color: #ffc107; color: black; }
+.btn-eliminar { background-color: #dc3545; color: white; }
+.btn-check { background-color: #28a745; color: white; }
+
+.error-text { color: red; font-size: 14px; display: none; }
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .input-group { flex-direction: column; }
+    .btn-black { width: 100%; }
+}
